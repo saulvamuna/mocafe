@@ -17,7 +17,7 @@ a {
     top: 0;
     display: flex;
     justify-content: space-evenly;
-    background: #92684f;
+    background: #797979;
     padding: 5px 0 0 5px;
     z-index: 999;
 }
@@ -28,7 +28,7 @@ a {
 
 .navbar-logo img {
     width: 120px;
-    border-radius: 2px;
+    border-radius: 6px;
 }
 
 .navlink {
@@ -255,7 +255,7 @@ a {
 
 .ace p {
     margin-bottom: 10px;
-    text-align: justify;
+    text-align: left;
 }
 
 
@@ -274,7 +274,7 @@ a {
 }
 
 .footer {
-    background: #92684f;
+    background: #797979;
     display: block;
     width: 100%;
     text-align: center;
@@ -363,16 +363,16 @@ a {
 
 .miviline1 {
     width: 60px;
-    height: 13vh;
-    margin-top: 5vh;
+    height: 12vh;
+    margin-top: 6.5vh;
     background: rgb(250, 237, 58);
     margin-right: 10px;
 }
 
 .miviline2 {
     width: 40px;
-    height: 12vh;
-    margin-top: 4vh;
+    height: 7.3vh;
+    margin-top: 6vh;
     background: rgb(236, 109, 109);
     margin-right: 10px;
 }
@@ -389,13 +389,13 @@ a {
 .mivi-text1 h1 {
     color: rgb(255, 242, 67);
     font-size: 45px;
+    margin-bottom: 15px;
 }
-
-
 
 .mivi-text2 h1 {
     color: red;
     font-size: 45px;
+    margin-bottom: 15px;
 }
 
 .mivi-text2 {
@@ -419,10 +419,10 @@ a {
 }
 
 .nosotros {
-    margin: 2vh 0 0 10vh;
+    margin: 4vh 0 0 43vh;
     width: 22%;
     border-bottom: 2px solid #000;
-    margin-bottom: 50px;
+    margin-bottom: 70px;
 }
 
 .nosotros-montaña {
@@ -450,9 +450,7 @@ a {
     display: flex;
     justify-content: center;
     position: absolute;
-    bottom: 28vh;
-
-
+    bottom: 32vh;
 }
 
 .pacho img {
@@ -502,9 +500,9 @@ a {
 }
 
 .nostp1 {
-    width: 70%;
+    width: 80%;
     text-align: justify;
-    margin-top: 3vh;
+    margin-top: 4vh;
     margin-bottom: 30px;
     font-size: 25px;
 }
@@ -544,9 +542,9 @@ a {
 
 .text-product h1 {
     width: 50%;
-    margin-top: 10vh;
-    margin-bottom: 23vh;
-    margin-left: -5vh;
+    margin-top: 22vh;
+    margin-bottom: 5vh;
+    margin-left: 5vh;
     border-bottom: 2px solid #000;
     animation: producth1 2s;
 }
@@ -877,7 +875,7 @@ a {
     }
 
     .text-sus {
-        margin-left: 2vh;
+        margin-left: -10vh;
     }
 
     .text-sus p {
@@ -892,11 +890,12 @@ a {
     .nosotros {
         width: 35%;
         margin-top: -2vh;
-        font-size: 37px;
+        margin-left: 27vh;
+        font-size: 34px;
     }
 
     .mivi {
-        width: 60%;
+        width: 70%;
     }
 
     .mivi-text1 {
@@ -904,7 +903,11 @@ a {
     }
 
     .miviline1 {
-        height: 20vh;
+        height: 16vh;
+    }
+
+    .miviline2 {
+        height: 10vh;
     }
 
     .mivi-text2 {
@@ -917,7 +920,7 @@ a {
     }
 
     .pacho {
-        margin-bottom: 10vh;
+        margin-bottom: 0vh;
     }
 
     .pacho img {
@@ -939,13 +942,13 @@ a {
 
     /*productos*/
     .contenido-product img {
-        width: 85%;
-        height: 75vh;
+        width: 75%;
+        height: 70vh;
     }
 
     .text-product h1 {
-        width: 65%;
-        margin-bottom: 17vh;
+        width: 75%;
+        margin-bottom: 4vh;
     }
 
     .text-product p {
@@ -1250,6 +1253,40 @@ a {
     }
 }
 
+/* @media (max-width: 768px) {
+    body {
+        background: red;
+    } */
+
+    /* ======================== NAVBAR ========================*/
+
+    /* .navbar-logo {
+        display: none;
+    }
+
+    .navbar-logo img {
+        display: none;
+    }
+
+    .navlink li {
+        font-size: 16px;
+    }
+
+
+
+    .navlink a:hover {
+        background: rgb(170, 170, 170);
+        border-radius: 5px;
+    }
+
+    .line {
+        background: #fff;
+        width: 2px;
+        height: 15px;
+        margin: 2px -8px 0 4px;
+    }
+} */
+
 /*CONTACTANOS*/
 
 .contacto {
@@ -1259,7 +1296,7 @@ a {
 
 .contacto img {
     width: 100%;
-    margin-top: 22px;
+    margin-top: 6.9vh;
 }
 
 .contenido-contacto {
@@ -1274,6 +1311,7 @@ a {
 .contenido-contacto .div1 {
     display: flex;
     flex-direction: column;
+    margin-top: 8vh;
     padding-top: 20px;
     padding-left: 30px;
     background: #fff;
@@ -1290,12 +1328,19 @@ a {
 
 .contenido-contacto .pum {
     display: flex;
-    color: #603e34;
     margin-bottom: 20px;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.contenido-contacto .pum a {
+    color: #603e34;
 }
 
 .contenido-contacto .div2 {
     display: flex;
+    margin-top: 8vh;
+
     flex-direction: column;
     position: relative;
     background: #c4c4c4;
@@ -1339,7 +1384,7 @@ textarea:focus {
     width: 50%;
     height: 30px;
     border-radius: 10px;
-    margin-left: 90px;
+    margin-left: 140px;
     color: #fff;
     font-size: 18px;
     margin-top: 20px;
