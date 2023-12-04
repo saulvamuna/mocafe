@@ -1445,7 +1445,7 @@ textarea:focus {
     .text-sus {
         position: absolute;
         top: 24vh;
-        left: 32vh;
+        left: 22vh;
     }
 
     .text-sus p {
@@ -1468,6 +1468,16 @@ textarea:focus {
         font-size: 12px;
         width: 90vw;
         margin: auto;
+    }
+
+    @keyframes text-sus {
+        from {
+            transform: translateX(-29vh);
+        }
+    
+        to {
+            transform: translateX(20vh);
+        }
     }
 
 
