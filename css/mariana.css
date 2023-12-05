@@ -1535,6 +1535,7 @@ textarea:focus {
 
 
     .nosotros-montaña {
+        display: block;
         position: relative;
         width: 100%;
         margin-top: -30vh;
