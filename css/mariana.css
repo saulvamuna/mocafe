@@ -1624,13 +1624,13 @@ textarea:focus {
         margin-left: 2vh;
     }
 
-    .productos-cono {
-        display: none;
-    }
-
     .productos-pequeño {
         display: block;
         margin-top: 20vh;
+    }
+    
+    .productos-cono {
+        display: none;
     }
 
     .cono-prod {
