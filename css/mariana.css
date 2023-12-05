@@ -571,6 +571,10 @@ a {
 
 }
 
+.productos-pequeño{
+    display: none;
+}
+
 .productos-cono {
     margin-top: -3vh;
 }
@@ -1475,7 +1479,7 @@ textarea:focus {
 
     @keyframes text-sus {
         from {
-            transform: translateX(-29vh);
+            transform: translateX(-48vh);
         }
     
         to {
