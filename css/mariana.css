@@ -1535,7 +1535,6 @@ textarea:focus {
 
 
     .nosotros-montaña {
-        display: block;
         position: relative;
         width: 100%;
         margin-top: -30vh;
@@ -1630,6 +1629,7 @@ textarea:focus {
     }
 
     .productos-pequeño {
+        display: block;
         margin-top: 20vh;
     }
 
